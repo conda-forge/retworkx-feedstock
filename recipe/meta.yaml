@@ -25,10 +25,15 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
     - setuptools-rust
+    - wheels
   run:
     - numpy >=1.16.0
     - python
+  run_constrained:
+    - matplotlib >=3.0
+    - pillow >=5.4
 
 test:
   imports:
