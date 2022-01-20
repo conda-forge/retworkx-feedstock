@@ -27,7 +27,7 @@ requirements:
     - python
     - setuptools
     - setuptools-rust
-    - wheels
+    - wheel
   run:
     - numpy >=1.16.0
     - python
